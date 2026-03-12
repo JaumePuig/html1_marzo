@@ -18,4 +18,24 @@ a:hover {
 body {
   background-color: darkslategray;
   margin: 0;
+  background-image: url('/ig.ico');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-image: url('/snc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 1s;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.2) rotate(30deg);
+        background-image: url('/pin.png');
+    }
+
 }
