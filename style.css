@@ -1,0 +1,12 @@
+.enlaceTwitter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: darkblue;
+}
+
+a{
+    color: pink;
+    text-decoration: none;
+}
