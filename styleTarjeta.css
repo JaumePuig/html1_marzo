@@ -1,0 +1,34 @@
+body{
+    margin-top: 10%;
+    background-color: gray;
+}
+
+.tarjeta{
+    background-color: lightgray;
+    outline-width: 2px;
+    outline-color: black;
+    width: 60%;
+    margin-left: 20%;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        transform: translateY(-10%);
+    }
+
+}
+
+.foto{
+    width: 30%;
+    margin-left: 35%;
+}
+
+.titulo{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 35%;
+}
+
+.descripcion{
+    font-size: medium;
+    margin-left: 35%;
+}
