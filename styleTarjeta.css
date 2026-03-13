@@ -5,21 +5,29 @@ body{
 
 .tarjeta{
     background-color: lightgray;
-    outline-width: 2px;
+    outline-style: auto;
     outline-color: black;
+    outline-width: thick;
     width: 60%;
     margin-left: 20%;
-    transition: all 0.5s ease-in-out;
 
     &:hover{
-        transform: translateY(-10%);
+        animation: float 1s ease-in-out infinite;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     }
 
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5%); }
+  100% { transform: translateY(0); }
 }
 
 .foto{
     width: 30%;
     margin-left: 35%;
+    margin-top: 1%;
 }
 
 .titulo{
@@ -31,4 +39,5 @@ body{
 .descripcion{
     font-size: medium;
     margin-left: 35%;
+    margin-bottom: 1%;
 }
